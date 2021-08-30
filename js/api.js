@@ -43,6 +43,17 @@ function weatherSection(tempareture){
                 <img src="images/rainy-removebg-preview.png" alt="">
                 `
             }
+            else if(weatherValue == "Mist"){
+                div2.innerHTML = `
+                <img src="images/mist.jpg" alt="">
+                `
+            }
+            else if(weatherValue == "Smoke"){
+                div2.innerHTML = `
+                <img src="images/smoke.png" alt="">
+                `
+            }
+
                weatherField.appendChild(div);
                weatherField.appendChild(div2);
         
